@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.Header{
+    background: rgb(255, 255, 255);
+    height: 70px;
+}
+.Header > h1{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 20px auto;
+    max-width: 500px;
+    }
+.BodyContend{
+    padding: 30px;
+    background-color: rgb(243, 243, 243)
+}
+.PhotoFeed {
+    width: 500px; 
+    margin: 50px auto;
+    background-color: white
+}
+.PFHeader {
+    display: flex;
+    justify-content:space-between ;
+    vertical-align: auto ;
+    height: 40px;
+    border-bottom: solid rgb(247, 247, 247);
+    margin-bottom: 40px;
+}
+
+#titlePF{
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#datePF {
+    margin: 10px;
+    color: gray
+}
+
+img {
+    max-width: 500px;
+    background-color: rgb(251, 255, 6);
+  }
+
+.FooterPF > p {
+    margin-top: 50px;
+    border-top: solid rgb(247, 247, 247);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
